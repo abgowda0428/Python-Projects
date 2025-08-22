@@ -34,7 +34,6 @@ def StuDetail():
     if Flag :
         print("No Student Found in this ID ....")
 
-<<<<<<< HEAD
     print("Welcome to Student Management System..")
     print("Select the Below Options to Proceed with the Application.")
     print("Enter 1: ADD Student Detail.")
@@ -53,7 +52,6 @@ def StuDetail():
 
 StartApplications()
 print(Students_Details.keys())
-=======
 def ViewStuDetail():
     for keys,val in Students_Details.items():
         print(f"Student ID: {keys}")
@@ -113,4 +111,3 @@ while running:
         ViewStuDetail()
     else:
         print("⚠️ Invalid input, please enter 1 – 5 or 'exit'.")
->>>>>>> cd82682c777c1afa0b1c29e30e1968ecae9d0a68
