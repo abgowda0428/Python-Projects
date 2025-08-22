@@ -8,12 +8,9 @@ Students_Details = {}
 
 def add_Student():
 
-<<<<<<< HEAD
     U_Id = str(uuid.uuid4())[:8]
     PU_Id = tuple(U_Id,)
-=======
     U_Id = str(uuid.uuid4())[:4]
->>>>>>> cd82682c777c1afa0b1c29e30e1968ecae9d0a68
     user_details = {}
 
     for key in keys:
